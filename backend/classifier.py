@@ -1,5 +1,5 @@
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 from PIL import Image, ImageFile
 from numpy import expand_dims
 from werkzeug.utils import secure_filename
