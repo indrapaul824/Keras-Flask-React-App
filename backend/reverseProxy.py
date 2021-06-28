@@ -8,7 +8,7 @@ def proxyRequest(host, path):
         "content-encoding",
         "content-length",
         "transfer-encoding",
-        "connection"
+        "connection",
     ]
 
     headers = {
