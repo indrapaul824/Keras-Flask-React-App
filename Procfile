@@ -1,1 +1,1 @@
-web: gunicorn backend/app:app
+web: npm run start:server-prod
